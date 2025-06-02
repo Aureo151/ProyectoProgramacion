@@ -1,0 +1,22 @@
+[
+  {
+    "Nombre": "VIP",
+    "Capacidad": 10,
+    "Disponibles": 10
+  },
+  {
+    "Nombre": "Tribuna",
+    "Capacidad": 20,
+    "Disponibles": 20
+  },
+  {
+    "Nombre": "General",
+    "Capacidad": 30,
+    "Disponibles": 29
+  },
+  {
+    "Nombre": "Mesas Platino",
+    "Capacidad": 5,
+    "Disponibles": 5
+  }
+]
