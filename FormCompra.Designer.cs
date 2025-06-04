@@ -36,8 +36,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.comboZonas = new System.Windows.Forms.ComboBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBoxQR = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxQR)).BeginInit();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -111,20 +111,20 @@
             this.comboZonas.Size = new System.Drawing.Size(121, 24);
             this.comboZonas.TabIndex = 7;
             // 
-            // pictureBox1
+            // pictureBoxQR
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(436, 26);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(246, 170);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxQR.Location = new System.Drawing.Point(436, 26);
+            this.pictureBoxQR.Name = "pictureBoxQR";
+            this.pictureBoxQR.Size = new System.Drawing.Size(246, 170);
+            this.pictureBoxQR.TabIndex = 8;
+            this.pictureBoxQR.TabStop = false;
             // 
             // FormCompra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxQR);
             this.Controls.Add(this.comboZonas);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -136,7 +136,7 @@
             this.Name = "FormCompra";
             this.Text = "FormCompa";
             this.Load += new System.EventHandler(this.FormCompra_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxQR)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -152,6 +152,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboZonas;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxQR;
     }
 }

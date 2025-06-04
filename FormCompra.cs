@@ -1,5 +1,6 @@
 ﻿using ProyectoProgramacion.Clases;
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -55,10 +56,17 @@ namespace ProyectoProgramacion
             Boleto boleto = transaccion.ProcesarCompra(comprador, zonaSeleccionada);
 
             if (boleto != null)
-            {
-                MessageBox.Show("Compra exitosa.\nAsiento: " + boleto.Asiento);
-                estadio.GuardarEnJson(rutaZonas); // guardar nueva disponibilidad
-                this.Close();
+            {              
+                if (!string.IsNullOrEmpty(boleto.QRPath) && File.Exists(boleto.QRPath))
+                {
+                    using (var tempImg = new Bitmap(boleto.QRPath))
+                    {
+                        pictureBoxQR.Image = new Bitmap(tempImg);
+                    }
+                }
+
+                MessageBox.Show($"Compra exitosa.\nNúmero de boleto: {boleto.Numero}\nAsiento: {boleto.Asiento}");
+                estadio.GuardarEnJson(rutaZonas); 
             }
             else
             {

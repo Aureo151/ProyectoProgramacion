@@ -51,5 +51,11 @@ namespace ProyectoProgramacion
             FormTransacciones formTransacciones = new FormTransacciones();
             formTransacciones.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormCancelarBoleto formCancelarBoleto = new FormCancelarBoleto();
+            formCancelarBoleto.ShowDialog();
+        }
     }
 }

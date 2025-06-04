@@ -63,6 +63,12 @@
     <Compile Include="Clases\PilaCancelaciones.cs" />
     <Compile Include="Clases\Transaccion.cs" />
     <Compile Include="Clases\Zona.cs" />
+    <Compile Include="FormCancelarBoleto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCancelarBoleto.Designer.cs">
+      <DependentUpon>FormCancelarBoleto.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,11 +89,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCancelarBoleto.resx">
+      <DependentUpon>FormCancelarBoleto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCompra.resx">
       <DependentUpon>FormCompra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransacciones.resx">
+      <DependentUpon>FormTransacciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

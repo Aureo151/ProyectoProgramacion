@@ -11,7 +11,7 @@ namespace ProyectoProgramacion.Clases
     internal class PilaCancelaciones
     {
         private Stack<Boleto> pila = new Stack<Boleto>();
-        private readonly string ruta = "cancelaciones.json";
+        private readonly string ruta = "../../cancelaciones.json";
 
         public PilaCancelaciones()
         {
