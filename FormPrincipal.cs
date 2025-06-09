@@ -57,5 +57,11 @@ namespace ProyectoProgramacion
             FormCancelarBoleto formCancelarBoleto = new FormCancelarBoleto();
             formCancelarBoleto.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Cancelaciones cancelaciones = new Cancelaciones();
+            cancelaciones.ShowDialog();
+        }
     }
 }

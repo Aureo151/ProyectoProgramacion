@@ -55,6 +55,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cancelaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cancelaciones.Designer.cs">
+      <DependentUpon>Cancelaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Clases\Boleto.cs" />
     <Compile Include="Clases\BoletoVIP.cs" />
     <Compile Include="Clases\ColaCompradores.cs" />
@@ -89,6 +95,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cancelaciones.resx">
+      <DependentUpon>Cancelaciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCancelarBoleto.resx">
       <DependentUpon>FormCancelarBoleto.cs</DependentUpon>
     </EmbeddedResource>

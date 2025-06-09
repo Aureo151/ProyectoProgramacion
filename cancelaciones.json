@@ -1,0 +1,26 @@
+[
+  {
+    "Numero": 1,
+    "Zona": "Mesas Platino",
+    "Asiento": "Mesas Platino-1",
+    "Comprador": "Aureo",
+    "FechaCompra": "2025-06-09T10:16:38.5705515-06:00",
+    "QRPath": "QRs/QR_1.png"
+  },
+  {
+    "Numero": 1,
+    "Zona": "Tribuna",
+    "Asiento": "Tribuna-1",
+    "Comprador": "Aureo",
+    "FechaCompra": "2025-06-09T09:58:12.7701353-06:00",
+    "QRPath": "QRs/QR_1.png"
+  },
+  {
+    "Numero": 1,
+    "Zona": "Mesas Platino",
+    "Asiento": "Mesas Platino-1",
+    "Comprador": "Aureo",
+    "FechaCompra": "2025-06-09T10:00:09.0230271-06:00",
+    "QRPath": "QRs/QR_1.png"
+  }
+]

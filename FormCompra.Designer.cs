@@ -116,6 +116,7 @@
             this.pictureBoxQR.Location = new System.Drawing.Point(436, 26);
             this.pictureBoxQR.Name = "pictureBoxQR";
             this.pictureBoxQR.Size = new System.Drawing.Size(246, 170);
+            this.pictureBoxQR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxQR.TabIndex = 8;
             this.pictureBoxQR.TabStop = false;
             // 
