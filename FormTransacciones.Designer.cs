@@ -89,7 +89,7 @@
             this.btnRestablecer.Name = "btnRestablecer";
             this.btnRestablecer.Size = new System.Drawing.Size(138, 64);
             this.btnRestablecer.TabIndex = 5;
-            this.btnRestablecer.Text = "Restabkecer";
+            this.btnRestablecer.Text = "Restablecer";
             this.btnRestablecer.UseVisualStyleBackColor = true;
             this.btnRestablecer.Click += new System.EventHandler(this.btnRestablecer_Click);
             // 
